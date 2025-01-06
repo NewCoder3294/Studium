@@ -1,0 +1,248 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #6200ea;
+  color: #fff;
+  font-size: 23px;
+  width: 100%;
+}
+
+header h1 {
+  color: white;
+  font-size: 3.5rem; 
+  margin: 0;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+  font-size: 1rem; 
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px 0;
+  gap: 20px;
+}
+
+.left-side {
+  width: 30%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.right-side {
+  width: 70%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+  font-size: 1.8rem;
+}
+
+input {
+  width: calc(100% - 20px); 
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3700b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #e0e0e0;
+}
+
+.dropdown-arrow {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: none;
+  list-style-type: none;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-menu li {
+  background-color: #f0f0f0;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-menu li:hover {
+  background-color: #e0e0e0;
+}
+
+#lectureContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lecture {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.lecture input {
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 150px;
+  resize: none;
+}
+
+.note-system-selector {
+  margin-bottom: 20px;
+}
+
+.note-system-selector label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.note-system-selector select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.cornell textarea {
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+footer {
+  width: 100%;
+  background-color: #6200ea;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+  border-top: 1px solid white;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+  color: white;
+}
+
+.add-lecture-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.add-lecture-button:hover {
+  background-color: #45a049;
+}
+
+.remove-class-button {
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.remove-class-button:hover {
+  background-color: #cc0000;
+}
+
+.delete-button {
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #cc0000;
+}

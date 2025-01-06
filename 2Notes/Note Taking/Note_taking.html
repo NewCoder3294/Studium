@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Note Taking App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<header>
+  <h1>Studium</h1>
+  <nav>
+    <a href="#Home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<body>
+  <div class="container">
+    <div class="left-side">
+      <h2>Classes</h2>
+      <input type="text" id="classInput" placeholder="Enter Class Name">
+      <button id="addClassBtn">Add Class</button>
+      <ul id="classList"></ul>
+    </div>
+
+    <div class="right-side">
+      <h2 id="className">Select a Class</h2>
+      <div class="note-system-selector">
+        <label for="noteSystem">Note Taking System:</label>
+        <select id="noteSystem">
+          <option value="normal">Normal</option>
+          <option value="cornell">Cornell Method</option>
+        </select>
+      </div>
+      <div id="lectureContainer">
+      </div>
+      <button id="saveButton">Save Note</button> 
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Studium. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

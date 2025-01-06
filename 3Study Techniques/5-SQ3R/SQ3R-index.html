@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SQ3R Study Tool</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Studium</h1>
+    <nav>
+      <a href="#Home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <div class="container">
+    <!-- Save and Load Section -->
+    <div class="save-load">
+      <input type="text" id="template-name" placeholder="Enter a name for your template...">
+      <button id="save-template-btn">Save Template</button>
+      <select id="load-template">
+        <option value="">Load a saved template...</option>
+      </select>
+    </div>
+
+    <!-- Step 1: Survey -->
+    <section id="survey">
+      <h2>Step 1: Survey</h2>
+      <p>Quickly skim the material to get an overview. Look at headings, subheadings, images, and summaries.</p>
+      <textarea id="survey-notes" placeholder="Write your survey notes here..."></textarea>
+    </section>
+
+    <!-- Step 2: Question -->
+    <section id="question">
+      <h2>Step 2: Question</h2>
+      <p>Turn headings and subheadings into questions. Write them down to guide your reading.</p>
+      <textarea id="question-notes" placeholder="Write your questions here..."></textarea>
+    </section>
+
+    <!-- Step 3: Read -->
+    <section id="read">
+      <h2>Step 3: Read</h2>
+      <p>Read the material carefully, looking for answers to your questions.</p>
+      <textarea id="read-notes" placeholder="Write your reading notes here..."></textarea>
+    </section>
+
+    <!-- Step 4: Recite -->
+    <section id="recite">
+      <h2>Step 4: Recite</h2>
+      <p>Summarize what you've read in your own words. This helps reinforce learning.</p>
+      <textarea id="recite-notes" placeholder="Write your summary here..."></textarea>
+    </section>
+
+    <!-- Step 5: Review -->
+    <section id="review">
+      <h2>Step 5: Review</h2>
+      <p>Go over your notes and questions to reinforce your understanding.</p>
+      <textarea id="review-notes" placeholder="Write your review notes here..."></textarea>
+    </section>
+
+    <!-- Save and Reset Buttons -->
+    <div class="controls">
+      <button id="save-btn">Save Progress</button>
+      <button id="reset-btn">Reset</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 SQ3R Study Tool. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

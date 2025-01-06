@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes Organizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Studium</h1>
+    <nav>
+      <a href="#Home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="upload-section">
+      <div>
+        <input type="file" id="file-input" accept=".pdf,.txt,.jpg,.png">
+        <select id="folder-select">
+          <option value="uncategorized">Uncategorized</option>
+        </select>
+        <button id="upload-button">Upload Note</button>
+      </div>
+
+      <div>
+        <input type="text" id="folder-name" placeholder="Folder Name">
+        <button id="create-folder">Create Folder</button>
+      </div>
+    </div>
+
+    <div class="folders-box">
+      <h2>Organized Notes</h2>
+      <div id="folders-list">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Studium. All Rights Reserved.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

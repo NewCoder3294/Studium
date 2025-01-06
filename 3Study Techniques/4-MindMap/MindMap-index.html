@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studium - Mind Map Tool</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+  <header>
+    <h1>Studium</h1>
+    <nav>
+      <a href="#Home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+<body>
+  <div class="toolbar">
+    <button id="new-node">New Node</button>
+    <button id="delete-node">Delete Node</button>
+    <button id="connect-nodes">Connect Nodes</button>
+    <button id="delete-arrow">Delete Arrow</button>
+    <button id="clear-map">Clear Map</button>
+    <button id="save-map">Save Map</button>
+    <button id="load-map">Load Map</button>
+    <div class="color-toolbar">
+      <div class="color-box" style="background-color: red;" data-color="red"></div>
+      <div class="color-box" style="background-color: blue;" data-color="blue"></div>
+      <div class="color-box" style="background-color: orange;" data-color="orange"></div>
+      <div class="color-box" style="background-color: purple;" data-color="purple"></div>
+      <div class="color-box" style="background-color: white; border: 1px solid #000;" data-color="white"></div>
+      <div class="color-box" style="background-color: green;" data-color="green"></div>
+      <div class="color-box" style="background-color: brown;" data-color="brown"></div>
+    </div>
+  </div>
+  <canvas id="mind-map" width="800" height="600"></canvas>
+  <script src="script.js"></script>
+</body>
+
+<footer>
+  <p>&copy; 2024 Studium. All Rights Reserved.</p>
+</footer>
+</html>
